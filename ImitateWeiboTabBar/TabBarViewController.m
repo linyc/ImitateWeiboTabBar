@@ -55,8 +55,7 @@
 
 -(void)btnClick
 {
-    //为什么不是45度？我也不明白
-    _btn.transform = CGAffineTransformRotate(_btn.transform, 40);
+    _btn.transform = CGAffineTransformRotate(_btn.transform, M_PI_4);
     
     UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"点击了中间按钮" message:nil delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
     alertView.delegate = self;
@@ -67,7 +66,7 @@
 
 -(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
-    _btn.transform = CGAffineTransformRotate(_btn.transform, -40);
+    _btn.transform = CGAffineTransformRotate(_btn.transform, M_PI_4);
     
     //do your something...
 }
