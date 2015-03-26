@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		741CE9C51AC3F83800151301 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 741CE9C41AC3F83800151301 /* main.m */; };
 		741CE9C81AC3F83800151301 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 741CE9C71AC3F83800151301 /* AppDelegate.m */; };
-		741CE9CB1AC3F83800151301 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741CE9CA1AC3F83800151301 /* FirstViewController.m */; };
-		741CE9CE1AC3F83800151301 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741CE9CD1AC3F83800151301 /* SecondViewController.m */; };
 		741CE9D11AC3F83800151301 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741CE9CF1AC3F83800151301 /* Main.storyboard */; };
 		741CE9D61AC3F83800151301 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 741CE9D41AC3F83800151301 /* LaunchScreen.xib */; };
 		741CE9E21AC3F83800151301 /* ImitateWeiboTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 741CE9E11AC3F83800151301 /* ImitateWeiboTabBarTests.m */; };
@@ -34,10 +32,6 @@
 		741CE9C41AC3F83800151301 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		741CE9C61AC3F83800151301 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		741CE9C71AC3F83800151301 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		741CE9C91AC3F83800151301 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		741CE9CA1AC3F83800151301 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		741CE9CC1AC3F83800151301 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		741CE9CD1AC3F83800151301 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		741CE9D01AC3F83800151301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		741CE9D51AC3F83800151301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		741CE9DB1AC3F83800151301 /* ImitateWeiboTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImitateWeiboTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,10 +85,6 @@
 				741CE9EC1AC3F8DE00151301 /* TabBarViewController.m */,
 				741CE9C61AC3F83800151301 /* AppDelegate.h */,
 				741CE9C71AC3F83800151301 /* AppDelegate.m */,
-				741CE9C91AC3F83800151301 /* FirstViewController.h */,
-				741CE9CA1AC3F83800151301 /* FirstViewController.m */,
-				741CE9CC1AC3F83800151301 /* SecondViewController.h */,
-				741CE9CD1AC3F83800151301 /* SecondViewController.m */,
 				741CE9CF1AC3F83800151301 /* Main.storyboard */,
 				741CE9EE1AC3F97400151301 /* Images.xcassets */,
 				741CE9D41AC3F83800151301 /* LaunchScreen.xib */,
@@ -230,9 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				741CE9ED1AC3F8DE00151301 /* TabBarViewController.m in Sources */,
-				741CE9CE1AC3F83800151301 /* SecondViewController.m in Sources */,
 				741CE9C81AC3F83800151301 /* AppDelegate.m in Sources */,
-				741CE9CB1AC3F83800151301 /* FirstViewController.m in Sources */,
 				741CE9C51AC3F83800151301 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
